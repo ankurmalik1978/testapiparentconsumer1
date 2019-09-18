@@ -1,0 +1,23 @@
+{
+  "name": "testapiparentconsumer1",
+  "version": "1.0.0",
+  "description": "Parent Consumer of testap1",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "build": "tsc",
+    "test": "echo \"No tests specified\" && exit 1"
+  },
+  "author": "anks",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "tslint": "^5.19.0",
+    "typescript": "^3.6.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "testapichild1": "1.0.0",
+    "testapiconsumer1": "~1.0.0"
+  }
+}
