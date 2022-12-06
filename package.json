@@ -16,7 +16,7 @@
     "typescript": "^3.6.2"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "testapichild1": "1.0.0",
     "testapiconsumer1": "~1.0.0"
   }
